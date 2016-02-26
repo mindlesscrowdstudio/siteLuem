@@ -1,0 +1,124 @@
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif; 
+	font-size:16px;
+	line-height: 20px; 
+	background-color: #252a31;}
+
+	/*#2e3540*/
+
+header{
+	background: #2e3540; 
+	margin: 8px 0; 
+	border-bottom: 2px solid #252a31;}
+
+nav {padding: 0;}
+
+ul { padding: 0}
+
+.container{
+	max-width: 960px;
+	margin:0 auto;}
+
+#logo{
+    font-family: Rokkitt;
+    color:#50aade;
+    padding-top: 2em;}
+
+#logo a:hover{
+    color:#60ddff;}
+
+a {
+color: #5F92B6;
+text-decoration: none;}
+
+header a {
+display: inline-block;
+font-size: 4.3em;}
+
+header h2 {
+font-size: 1em;
+margin-left: 9.8em;
+padding-bottom: 0.6em;
+color: #5F92B6;
+position: relative;
+top: -0.6em;}
+
+img {
+max-width: 100%;
+height: auto;}
+
+a img {
+width: 100px;
+margin: 0px 30px -46px;}
+
+a span{ }
+.descripcion{width: 60em; margin:  0 auto;  }
+section p{font-weight: bold; font-size: 20px; line-height: 150%}
+section h2 {color: #5F92B6; text-align: center; margin-top: 2em;}
+.destacado{font-weight: 700; background-color: rgba(18, 19, 19, 0.3);}
+
+.video {
+		width: 100%;
+		height: 15.6em;
+		text-align: center;
+	}
+
+/*contacto*/
+	p {color: #aaa;}
+	.container {width: 960px; padding:0px; margin:0 auto;}
+	.textos{line-height: 2em}
+	.col-izquierda iframe   { width: 100%; height: 32em; frameborder: 0; border: 0}
+	.formulario {margin: 0 auto; width: 56.25em; height: 44em;}
+	.col-izquierda{width: 48%; height:32em; float: left; background-color: #bbb }
+
+	.col-derecha {width: 48%; height:32em; float: right; background-color: rgba(18, 19, 19, 0.3);}
+
+	.form-contacto{ height:28em;padding: 2em; border: 0 solid #222; line-height: 1em} 
+	form span{font-size: 0.8em; color: red;}
+	.campo-form{width: 100%; height: 2em; border: 2px solid #5F92B6; background-color: #2e3540;}
+	textarea { margin: 5px 0; width: 100%; height: 2em; border: 2px solid #5F92B6; background-color: #2e3540;}
+
+	input[type=submit] {font-size: 1.2em; padding: 0.6em 1em; margin-top: 1em; border-radius: 0.5em; border:0; color:white; background-color: #2e3540; }
+
+
+
+
+
+/* M E D I A  Q U E R I E S */
+
+
+img { max-width:100%; height:auto}
+
+@media screen and (max-width:960px){
+ 	article p{font-size: auto}
+	/*#logo{margin-left:15.5em;}*/
+}
+  
+@media screen and (max-width:768px){
+ 	/*#logo{margin-left:9.5em;}*/
+ 	.container {max-width: 768px;}
+ 	header a {font-size: 2em}
+}
+
+@media screen and (max-width:480px){
+  	/*#logo{margin-left:7.5em;}*/
+  	header h2 {font-size: 1em; padding-bottom: 0.6em;}
+  	header a {font-size: 2em}
+  	.container {max-width: 480px;}
+}
+
+@media screen and (max-width:340px){
+	/*#logo{margin-left:6em; */
+	.container {max-width: 340px;}
+	#logo{display: block;}
+	header #logo a {display: block; font-size: 3em; margin-bottom: 0.9em;}
+	header h2 {display: block; font-size: 1em; margin-left: -0.4em; position: relative; top: -1.6em;}
+	header a {font-size: 2em}
+	.pepe{padding-bottom: 0.3em;}
+	nav ul li a{font-size: 1em;}
+  	form {width: auto}
+ 	.campo-apellido{width: auto}
+ 	.campo-mail{width: auto}
+ 	.boton{position: absolute; bottom:50px; left:70%;}
+}
