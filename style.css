@@ -80,7 +80,7 @@ nav ul li {
 }
 nav ul a {
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1em;
 text-shadow: 1px 3px 2px RGBA(126, 121, 121, 0.8);  padding: 24px 15px !important;
   color: #fff;
   font-family: "Lato",sans-serif;
@@ -142,7 +142,7 @@ background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, F
 /*slider*/
 .fill{
 	max-width: 120%;
-	max-height:100%;
+	max-height:120%;
 	margin: 0 auto;
 	background-position:center;
 	background-size:cover;
@@ -676,6 +676,30 @@ figure.effect-Beauty:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
+}
+/*------------COPY---------------------------*/
+.copy{
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F9EFED , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F9EFED , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+               
+}
+.center{
+    margin-bottom: 4em;
+    position: relative;
+    min-height: 1px;
+   padding: 3em 0;
+
+}
+.center h2{
+     font-family: 'LATO',sans-serif;
+    font-size: 2.5em;
+    color:#45444b;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 7.5px;
+    font-weight: 200;
+    text-align: center;
 }
 
 /*------------------------------------------/
