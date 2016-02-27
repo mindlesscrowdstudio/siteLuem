@@ -48,17 +48,19 @@ body{
   top: 0px;
   border-bottom: 1px solid lightgrey;
 }
+h1 .logo img{
+    width:auto;
+    position: absolute;
+}
 .logo{
-  width: 50px;
-  font-size: 25px;
-  color: #8f8f8f;
-  text-transform: uppercase;
+  width: 100%;
   float: left;
   display: block;
   margin-top: 0;
   line-height: 1;
   margin-bottom: 10px;
-}
+    position: relative;
+}*/
 nav {
   float: right;
   width: 60%;
