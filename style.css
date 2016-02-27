@@ -20,7 +20,7 @@ body{
     position: fixed;
     top:0px;
     max-height: 70px;
-    z-index: 999;
+    /*z-index: 999;*/
     width: 100%;
     padding-top:1em;
     background: none;
@@ -43,27 +43,27 @@ body{
   -webkit-transform: rotate(-90deg);
 }
 .sticky {
-  background-color: rgba(255, 255, 255, 0.93);
+  background-color: rgba(229,229,229,0.7);
   opacity: 1;
   top: 0px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid rgba(229,229,229,0.2);
+    z-index: 3;
 }
 h1 .logo img{
-    width:auto;
+    width:160px;
     position: absolute;
+    top: -0.9em;
 }
 .logo{
   width: 100%;
   float: left;
   display: block;
   margin-top: 0;
-  line-height: 1;
-  margin-bottom: 10px;
     position: relative;
-}*/
+}
 nav {
   float: right;
-  width: 60%;
+  width: 100%;
 }
 
 nav ul {
@@ -81,11 +81,22 @@ nav ul li {
 nav ul a {
   text-transform: uppercase;
   font-size: 1.2em;
-text-shadow: 2px 2px 1px #ABABAB;
-  padding: 24px 15px !important;
+text-shadow: 1px 3px 2px RGBA(126, 121, 121, 0.8);  padding: 24px 15px !important;
   color: #fff;
   font-family: "Lato",sans-serif;
   font-weight: 400;
+}
+nav ul a:active,nav ul a:hover,nav ul a:focus{
+    text-decoration: none;
+}
+nav ul a:hover {
+    color:#FF0505;
+}
+nav ul a:active{
+    color:#FFE600;
+}
+nav ul a:focus{
+    color:#FFE600;
 }
 .mobile-toggle {
   display: none;
@@ -105,13 +116,13 @@ text-shadow: 2px 2px 1px #ABABAB;
   height: 4px;
   margin-bottom: 6px;
   border-radius: 1000px;
-  background: #8f8f8f;
+  background: #535353;
   display: block;
 }
 
 .rowe{
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   position: relative;
   padding: 0 2%;
@@ -450,7 +461,7 @@ background-image:url(http://www.transparenttextures.com/patterns/shattered.png);
 background: #121212; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #121212 , #191919); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #121212 , #191919); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	padding: 90px 0px;
+	/*padding: 90px 0px;*/
 }
 .all-td
 {
@@ -1364,6 +1375,10 @@ padding: 0.2em;
   .main_h {
     padding-top: 25px;
   }
+   /* h1 .logo img{
+   
+    margin-top: -5%;
+    }*/
   nav {
     width: 100%;
   }
@@ -1458,11 +1473,11 @@ padding: 40px 0px;
 @media (min-width: 768px) and (max-width: 990px) {
 .social {
     margin-top: 10px;
-}
+    }
 .notes button {
     padding: 14px 19px;
     font-size: 13px;
-}
+    }
 }
 @media (min-width: 100px) and (max-width: 350px) {
 .sorting {
