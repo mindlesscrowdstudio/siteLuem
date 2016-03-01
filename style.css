@@ -81,7 +81,7 @@ nav ul li {
 nav ul a {
   text-transform: uppercase;
   font-size: 1em;
-text-shadow: 1px 3px 2px RGBA(126, 121, 121, 0.8);  padding: 24px 15px !important;
+text-shadow: 1px 2px 2px RGBA(126, 121, 121, 0.8);  padding: 24px 15px !important;
   color: #fff;
   font-family: "Lato",sans-serif;
   font-weight: 400;
@@ -150,6 +150,27 @@ background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, F
  .glyphicon-chevron-left,.glyphicon-chevron-right{
 	 font-size:2.5em !important;
  }
+.carousel-indicators, .glyphicon-chevron-left, .glyphicon-chevron-right {
+    visibility: hidden;
+}
+.carousel-caption{
+    text-align: left !important;
+    top: 35%;
+    left: 2% !important;
+}
+.carousel-caption h2{
+    color:#F5F5F5 !important;
+    font-family: 'Lato',sans-serif !important;
+    font-weight: 300;
+    letter-spacing: 2px;    
+    font-size:200%;
+    background: rgba(175,171,168,0.4);
+    width: 50%;
+    padding: 0.5em;
+line-height: 1.2;
+}
+
+
 /*-------VIDEO BACKGROUND-----------*/
 /*main{
 	width: 100%;
@@ -685,22 +706,35 @@ background: linear-gradient(to left, #F9EFED , #FFFFFF); /* W3C, IE 10+/ Edge, F
                
 }
 .center{
-    margin-bottom: 4em;
-    position: relative;
-    min-height: 1px;
-   padding: 3em 0;
+  font-family: 'LATO',sans-serif;
+margin-bottom: 4em;
+position: relative;
+min-height: 1px;
+padding: 3em 0;
+text-align: center;
 
 }
-.center h2{
-     font-family: 'LATO',sans-serif;
+.center h2, .center > #copy-section{
     font-size: 2.5em;
     color:#45444b;
     text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 7.5px;
     font-weight: 200;
-    text-align: center;
 }
+.center span{
+    font-weight: 400;
+}
+.center p{
+font-size: 1.2em;
+font-weight: 300;    
+line-height: 24px;
+color: #747a8f;
+margin: 0 0 40px;
+    letter-spacing: 2px;
+}
+
+
 
 /*------------------------------------------/
 /-----------------Note----------------------/
@@ -709,7 +743,7 @@ background: linear-gradient(to left, #F9EFED , #FFFFFF); /* W3C, IE 10+/ Edge, F
 	background: #359ECB; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #359ECB , #307EE2); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #359ECB , #307EE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	padding: 100px 0px;
+	padding: 70px 0px;
 }
 .notes a{
 	color:#fff;
@@ -1337,7 +1371,7 @@ background: linear-gradient(to left, #E8BC0C, #FFE600); /* W3C, IE 10+/ Edge, Fi
 
 .foot-logo img
 {
-	width: auto;
+	width: 50px;
 	height: initial;
 	display:inline-block;
 
@@ -1439,7 +1473,9 @@ padding: 0.2em;
 	.vcard{
 		border-top: 1px dashed #535353;
 	}
-
+    .carousel-caption h2{
+        visibility: hidden;
+    }
 }
 
 
@@ -1482,6 +1518,13 @@ display: inline-block;
     font-size: 30px !important;
 	color: #fff;
 }
+.banner-contact h3 {
+    font-size: 1em;
+}
+.banner-contact h3 .btn-cta{
+        text-align: start;
+        font-size: 0.8em;
+    }
 figure.effect-Beauty h2 {
     margin-top: 15%;
     font-size: 16px;
@@ -1493,6 +1536,23 @@ figure.effect-Beauty p {
 .features, .about, .notes, .testimonials, .address, .gallery{
 padding: 40px 0px;
 	}
+    .carousel-caption{
+    text-align: left !important;
+    top: 35%;
+    left: 2% !important;
+}
+.carousel-caption h2{
+    color:#F5F5F5 !important;
+    font-family: 'Lato',sans-serif !important;
+    font-weight: 300;
+    letter-spacing: 2px;    
+    font-size:120%;
+    background: rgba(175,171,168,0.4);
+    width: 50%;
+    padding: 0.4em;
+line-height: 1.2;
+}
+
 }
 @media (min-width: 768px) and (max-width: 990px) {
 .social {
